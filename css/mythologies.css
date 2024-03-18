@@ -1,0 +1,64 @@
+.mythologies__title {
+    border: 5px solid var(--border-color);
+    padding: 10px;
+    font-size: 47px;
+    margin: 10px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.mythologies__container {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.mythologies__image {
+    max-height: 520px;
+    max-width: 365px;
+}
+
+.mythologies__description {
+    color: var(--text-color);
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.75;
+    text-align: justify;
+}
+.mythologies__line{
+    background-color: var(--line-background-color);
+    height: 3px;
+    margin-top: 70px;
+    border: 0px;
+    margin-bottom: 32px;
+}
+
+.mythologies__subtitle {
+    color: var(--additional-title-color);
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.mythologies__list {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.mythologies__link {
+    color: var(--additional-title-color);
+    text-decoration: underline;
+    font-size: 21px;
+    font-family: var(--main-font);
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+
+@media (min-width: 760px) {
+    .mythologies__container {
+        flex-direction: row;
+    }
+  }
+

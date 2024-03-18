@@ -10,6 +10,10 @@
 :root {
   --main-color: #5b0f00;
   --additional-color: rgba(225, 223, 219, 1);
+  --title-color: white;
+  --additional-title-color: #212121;
+  --text-color: #444444;
+  --border-color: white;
   --button-background-color:#303033;
   --line-background-color: rgba(0, 0, 0, 0.150000006);
   --button-font: 'Open Sans', sans-serif;
@@ -28,7 +32,15 @@ h2,
 h4,
 p {
   font-family: var(--main-font);
+  color: var(--title-color);
+}
+
+p {
   color: var(--main-color);
+}
+
+li {
+  margin-bottom: 10px;
 }
 
 .container {

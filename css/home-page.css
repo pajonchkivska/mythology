@@ -3,6 +3,7 @@
     text-align: center;
     font-weight: 700;
     margin: 20px;
+    color: var(--main-color);
 }
 
 .mythology__description {
@@ -63,7 +64,7 @@
     text-align: center;
     font-family: var(--button-font);
     font-size: 16px;
-    padding: 6px;
+    padding: 4px;
     border-radius: 4px;
 }
 
