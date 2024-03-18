@@ -1,0 +1,74 @@
+.mythology__title {
+    font-size: 31px;
+    text-align: center;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.mythology__description {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.mythology__description,
+.mythology__paragraph {
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.mythology__paragraph {
+    text-align: justify;
+    margin-bottom: 55px;
+}
+
+.mythology__line{
+    background-color: var(--line-background-color);
+    height: 3px;
+    margin-top: 8px;
+    border: 0px;
+    margin-bottom: 48px;
+}
+
+.mythology__image {
+    margin-bottom: 70px;
+    
+}
+
+.mythology__cards {
+    background-color: var(--additional-color);
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px 20px;
+    padding: 24px;
+}
+
+.mythology__card {
+    max-width: 365px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mythology__card .card__image {
+    margin-bottom: 24px;
+}
+
+.mythology__card .card__link {
+    color: var(--additional-color);
+    background-color: var(--button-background-color);
+    text-decoration: none;
+    text-align: center;
+    font-family: var(--button-font);
+    font-size: 16px;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+@media (min-width: 760px) {
+    .mythology__card {
+        width: calc((100% - 60px) / 3);
+    }
+  }
