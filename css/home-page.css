@@ -31,13 +31,7 @@
 .mythology__image{
     margin-bottom: 70px; 
 }
-.about__img{
-   justify-content: center;
-   margin-left: 400px;
-}
-.mythology__cards,
-.about__img,
-.about__paragraph {
+.mythology__cards {
     background-color: var(--additional-color);
     max-width: 100%;
     display: flex;
@@ -48,8 +42,7 @@
     padding: 24px;
 }
 
-.mythology__card,
-.about__img {
+.mythology__card {
     max-width: 365px;
     display: flex;
     flex-direction: column;
@@ -71,9 +64,20 @@
     border-radius: 4px;
 }
 
+.about__img {
+    max-width: 365px;
+    background-color: var(--additional-color);
+    padding: 10px;
+}
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
 @media (min-width: 760px) {
-    .mythology__card,
-    .about__img {
+    .mythology__card {
         width: calc((100% - 60px) / 3);
     }
   }
