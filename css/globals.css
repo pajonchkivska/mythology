@@ -24,7 +24,9 @@
   margin: auto;
   scroll-behavior: smooth;
 }
-
+body{
+  overflow-x: hidden ;
+}
 img {
   display: block;
   width: 100%;
@@ -49,7 +51,8 @@ li {
 
 .container {
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
   padding: 0 24px;
+  width: 100vw;
 }
 
