@@ -1,10 +1,11 @@
 .mythologies__title {
-    border: 5px solid var(--border-color);
-    padding: 10px;
-    font-size: 47px;
-    margin: 10px;
+    padding: 70px;
+    font-size: 35px;
     text-align: center;
-    background-color: antiquewhite;
+    color: var(--main-color);
+    background: linear-gradient(antiquewhite, white);
+    max-width: 100%;
+    margin-bottom: -65px;
 }
 
 .mythologies__container {
@@ -59,6 +60,9 @@
 @media (min-width: 760px) {
     .mythologies__container {
         flex-direction: row;
+    }
+    .mythologies__title{
+        font-size: 47px;
     }
   }
 
