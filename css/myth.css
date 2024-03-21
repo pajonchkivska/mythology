@@ -1,6 +1,6 @@
 .myth__heading {
     padding: 40px;
-    font-size: 47px;
+    font-size: 35px;
     text-align: center;
     color: var(--main-color);
     background: linear-gradient(antiquewhite, white);
@@ -44,4 +44,9 @@
     text-align: right;
     margin-top: 45px;
     margin-bottom: 60px;
+}
+@media (min-width: 760px) {
+    .mythologies__title {
+        font-size: 47px;
+    }
 }
