@@ -19,7 +19,7 @@
   .logo {
       margin-right: auto;
       color: var(--main-color);
-      font-size: 30px;
+      font-size: 25px;
       font-weight: 700;
       text-decoration: none;
       font-weight: 700;
@@ -74,7 +74,7 @@
           color: var(--main-color);
           font-weight: 700;
           text-decoration: none;
-          font-size: 20px;
+          font-size: 15px;
           &:hover {
               color: #5b0f007e;
           }
