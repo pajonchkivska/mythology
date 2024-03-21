@@ -7,7 +7,7 @@
 .navbar {
   display:  flex;
   align-items: center;
-  padding: 20px 50px;
+  padding: 20px 20px;
   box-shadow: .2px .2px 1px grey; 
   z-index: 700;
   width: 100%;
@@ -23,6 +23,7 @@
       font-weight: 700;
       text-decoration: none;
       font-weight: 700;
+      padding-top: 7px;
   }
   .burger-menu {
       position: absolute;
