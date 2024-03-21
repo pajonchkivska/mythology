@@ -1,6 +1,6 @@
 .mythology__title{
     padding: 60px;
-    font-size: 47px;
+    font-size: 35px;
     text-align: center;
     color: var(--main-color);
     background: linear-gradient(antiquewhite, white);
@@ -80,5 +80,8 @@
 @media (min-width: 760px) {
     .mythology__card {
         width: calc((100% - 60px) / 3);
+    }
+    .mythology__title {
+        font-size: 47px;
     }
   }
